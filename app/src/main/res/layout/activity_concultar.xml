@@ -49,90 +49,62 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <LinearLayout
-        android:layout_width="328dp"
-        android:layout_height="385dp"
-        android:layout_marginStart="49dp"
-        android:layout_marginTop="33dp"
-        android:layout_marginEnd="41dp"
+        android:layout_width="332dp"
+        android:layout_height="402dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="10dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2">
 
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/codigoC"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        <EditText
+            android:id="@+id/codigo111"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Código de producto">
+            android:ems="10"
+            android:hint="Codigo"
+            android:inputType="number" />
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed-medium" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/consultaC"
-            android:layout_width="match_parent"
-            android:layout_height="59dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginBottom="12dp"
-            android:text="Concultar"
-            android:transitionName="buttonSignInTrans" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/NombreC"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        <Button
+            android:id="@+id/Agregar111"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nombre completo">
+            android:text="Consultar" />
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed-medium" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/precioC"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        <EditText
+            android:id="@+id/nombre111"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Precio del producto">
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed-medium" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/descripcionC"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        <EditText
+            android:id="@+id/precio111"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Descripción del producto">
+            android:ems="10"
+            android:hint="Precio"
+            android:inputType="numberDecimal" />
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed-medium" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/cantidadC"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        <EditText
+            android:id="@+id/descripcion111"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Número de Piezas">
+            android:ems="10"
+            android:hint="Descripcion"
+            android:inputType="textPersonName" />
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed-medium" />
-        </com.google.android.material.textfield.TextInputLayout>
+        <EditText
+            android:id="@+id/numeroP111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Cantidad de Piezas"
+            android:inputType="number" />
 
     </LinearLayout>
 

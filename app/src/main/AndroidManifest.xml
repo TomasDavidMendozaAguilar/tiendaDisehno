@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Tienda">
-        <activity android:name=".RecuperacionActivity"></activity>
         <activity android:name=".modificarActivity" />
         <activity android:name=".eliminarActivity" />
         <activity android:name=".ConcultarActivity" />
